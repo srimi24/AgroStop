@@ -1,0 +1,44 @@
+<html>
+    <head><style>
+        body {
+            background-color: powderblue;
+            font-size: 1.9em;
+        }
+    </style></head>
+   <body>    
+    <ul>
+        <li><a href="{{ url_for('index') }}">Home</a></li>
+        <li><a href="{{ url_for('food') }}">Nitrogen</a></li>
+        <li><a href="{{ url_for('vehical') }}">Phosphorous</a></li>
+        <li><a href="{{ url_for('BerlinEmissions_hourly_performance') }}">Stats</a></li>
+    </ul>
+      <form action = "http://localhost:30000/crop" method = "post">
+          
+ 
+<p>Enter N:</p>
+ 
+ 
+          
+ 
+<p><input type = "text" name = "N"/></p>
+ 
+ 
+          
+<p>Enter P</p>
+<p><input type = "text" name = "P" /></p>
+<p>Enter K</p>
+<p><input type = "text" name = "K" /></p>
+<p>Enter temperature</p>
+<p><input type = "text" name = "temperature" /></p>
+<p>Enter humidity</p>
+<p><input type = "text" name = "humidity" /></p>
+<p>Enter pH</p>
+<p><input type = "text" name = "pH" /></p>
+<p>Enter rainfall</p>
+<p><input type = "text" name = "rainfall" /></p>
+<p><input type = "submit" value = "submit" /></p>
+ 
+ 
+      </form>     
+   </body>
+</html>
