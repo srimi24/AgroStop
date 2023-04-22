@@ -1,1 +1,1 @@
-# 9_Khichdi
+# This project has a crop recommendation and Fertilizer recommendation model, involving a water level sensor notifying the farmer about the water level in the soil through a dynamic website. Also, enables the farmer to purchase the recommended fertilizers for his soil condition at optimum prices through the same website.
